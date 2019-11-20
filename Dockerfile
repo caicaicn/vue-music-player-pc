@@ -1,6 +1,6 @@
 FROM nginx:latest
 
-RUN npm run build 
+CMD ["npm", "run", "build"]
 
 COPY /dist /webfile/vue-music-player-pc
 
