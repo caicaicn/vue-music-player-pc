@@ -1,0 +1,9 @@
+export const GET_AUDIO = 'GET_AUDIO';                                   //获取audio元素
+export const SET_UID = 'SET_UID';                                   //设置
+export const SET_CURRENTLIST = 'SET_CURRENTLIST'                        // 设置当前播放列表
+export const SET_PLAYFLAG = 'SET_PLAYFLAG'                              // 设置播放暂停
+export const SET_CURRENTINDEX = 'SET_CURRENTINDEX'                      // 设置播放暂停
+export const SET_INITCURRENTINDEX = 'SET_INITCURRENTINDEX'              // 初始化当前播放索引
+export const ADD_HISTORYLIST = 'ADD_HISTORYLIST'                        // 添加播放历史
+export const REMOVE_HISTORYLIST = 'REMOVE_HISTORYLIST'                        // 删除播放历史
+export const CLEARHISTORY = 'CLEARHISTORY'                              // 删除播放历史
