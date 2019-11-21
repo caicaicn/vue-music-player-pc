@@ -1,7 +1,7 @@
 FROM nginx:latest
 
-CMD ["npm", "run", "build"]
-
+# CMD ["npm", "run", "build"]
+RUN npm run build
 # run mkdir /webfile/vue-music-player-pc/
 
 WORKDIR /webfile/vue-music-player-pc/
