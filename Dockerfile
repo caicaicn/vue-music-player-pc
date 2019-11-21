@@ -6,6 +6,6 @@ CMD ["npm", "build"]
 
 WORKDIR /webfile/vue-music-player-pc/
 
-COPY vue-music-player-pc/dist/ /webfile/vue-music-player-pc/
+COPY ./dist/ /webfile/vue-music-player-pc/
 
 
