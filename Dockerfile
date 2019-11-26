@@ -6,4 +6,4 @@ WORKDIR /webfile/vue-music-player-pc/
 
 COPY ./dist/ /webfile/vue-music-player-pc/
 
-EXPOSE 80
+COPY nginx/nginx.conf /etc/nginx/nginx.conf
