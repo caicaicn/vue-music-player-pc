@@ -8,4 +8,4 @@ COPY ./dist/ /webfile/vue-music-player-pc/
 
 RUN mkdir -p nginx
 
-COPY nginx/nginx.conf /etc/nginx/nginx.conf
+COPY nginx/ /etc/nginx/nginx.conf
